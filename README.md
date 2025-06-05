@@ -1,4 +1,4 @@
-#Tic-Tac-Toe
+# Tic-Tac-Toe
 
 a project to practice managing state and logic in React
 
