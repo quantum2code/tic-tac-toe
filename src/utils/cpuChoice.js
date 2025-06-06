@@ -6,7 +6,7 @@ function cpuChoice(matrix, gridSize) {
     }
   }
   const emptyCords = allCords.filter(([i, j]) => !matrix[i][j].value);
-  console.log("Empty Cordinates: ", emptyCords);
+  //   console.log("Empty Cordinates: ", emptyCords);
   if (emptyCords === 0) return null;
   const randIdx = Math.floor(Math.random() * emptyCords.length);
   return emptyCords[randIdx];
