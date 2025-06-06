@@ -85,6 +85,7 @@ function App() {
           setMatrix(defMatrix);
           setIsGameOver(false);
           setIsMyTurn(true);
+          setWinner(null)
         }}
         className="p-2 bg-gray-700 text-white m-3"
       >
